@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  margin: 30px 0;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+button {
+  padding: 6px 0px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 4px;
+}
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.delete {
+  background-color: red;
+  margin-left: 10px;
+}
+.delete:hover {
+  background-color: rgb(207, 7, 7);
+}
+.back {
+  background-color: #0056b3;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 13px;
+}
+
+@media (max-width: 400px) {
+  th,
+  td {
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .delete {
+    margin-left: 0;
+    margin-top: 2px;
+  }
+  form {
+    padding: 10px;
+    margin-top: 30px;
+  }
+  input[type="text"] {
+    padding: 8px;
+  }
+  button[type="submit"] {
+    padding: 8px 16px;
+  }
+}
